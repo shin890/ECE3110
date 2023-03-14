@@ -1,6 +1,6 @@
 tic
 x1=-3;
-x2=1;
+x2=0;
 E=0.0001;
 n=0;
 f1=fnc(x1);
@@ -27,4 +27,3 @@ disp(x0);
 disp(n);
 toc
 return;
-
