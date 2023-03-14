@@ -1,0 +1,13 @@
+tic
+x1=-3;
+x2=1;
+E=0.001;
+steps=0;
+f1=fnc(x1);
+f2=fnc(x2);
+
+if (f1*f2)>0
+    return
+else
+    while (abs((x2-x1)/x2))>E
+
